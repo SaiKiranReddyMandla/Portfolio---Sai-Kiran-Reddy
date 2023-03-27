@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Spectral', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.main-logo{
+    padding: 0 25px;
+    
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    padding: 0 25px;
+    list-style-type: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-list li a:hover{
+    background-color: coral;
+    padding: 2px;
+}
+
+.hero-image{
+    margin: auto;
+    text-align: center;
+}
+
+.hero-image .intro-image{
+    width: 350px;
+    height: 350px;
+}
+
+.intro-text, .intro-icons, .btn{
+    text-align: center;
+}
+
+.intro-text p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.intro-text h1{
+    font-size: 45px;
+}
+
+.intro-text h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.intro-icons img{
+    padding: 10px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.intro-icons img:hover{
+    background-color: coral;
+}
+
+.aboutme{
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.aboutme .about-left-sec img{
+    width: 700px;
+    height: 700px;
+    margin-left: 50px;
+}
+
+.aboutme .about-right-sec h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 35px;
+}
+
+.aboutme .about-right-sec p{
+    padding: 0 20px;
+    text-align: justify;
+}
+
+table, tr,th,td{
+    
+    margin: 30px 50px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.table-logo img{
+    width: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.about-logo{
+    background-color: coral;
+    border-radius: 50%;
+}
+
+.details h4{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.details span{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.intrest-logo{
+    width: 30px;
+    vertical-align: middle;
+    background-color: coral;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.skills{
+    display: flex;
+    margin-top: 80px;
+}
+
+.skills-left-sec h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 35px;
+}
+
+.skills-left-sec p{
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.skills-right-sec img{
+    width: 600px;
+    height: 570px;
+    margin-right: 50px;
+}
+
+.skill-icons img{
+    margin-top: 20px 0;
+    display: inline-block;
+    margin: 40px;
+    width: 120px;
+}
+
+.project-heading h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    padding: 25px 0;
+}
+
+.projects-img{
+    margin: auto;
+    text-align: center;
+}
+
+.projects-img img{
+    width: 700px;
+    height: 600px;
+}
+
+.contactme{
+    display: flex;
+}
+
+.contact-right-sec h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 25px 0;
+}
+
+.form-data{
+    display: flex;
+    width: auto;
+}
+
+.form-left input{
+    padding: 10px 15px;
+    margin: 20px 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.form-right input{
+    padding: 10px 15px;
+    margin: 20px 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.subject-feild input{
+    padding: 10px 15px;
+    margin: 20px 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    width: 90%;
+}
+
+.text-feild textarea{
+    padding: 10px 15px;
+    margin: 20px 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    width: 90%;
+    height: 30%;
+}
+
+.sub-btn button{
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.sub-btn button:hover{
+    background-color: coral;
+    transition: all 0.3s ease;
+}
